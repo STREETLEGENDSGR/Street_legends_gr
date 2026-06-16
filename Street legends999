@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Legends GR - Συνάντηση</title>
+
+    <style>
+        body{
+            margin:0;
+            background:#000;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            font-family:Arial,sans-serif;
+        }
+
+        .poster{
+            max-width:100%;
+            width:900px;
+            box-shadow:0 0 30px rgba(255,215,0,0.5);
+            border-radius:15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="poster.jpg"
+         alt="Street Legends GR Συνάντηση"
+         class="poster">
+
+</body>
+</html>Street_Legends_GR/
+│
+├── index.html
+└── poster.jpg
+Street_Legends_GR
+index.html
+poster.jpg
+Deploy from a branch
+Branch: main
+Folder: /root

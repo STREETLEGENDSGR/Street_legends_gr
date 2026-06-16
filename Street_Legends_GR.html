@@ -4,28 +4,82 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Street Legends GR</title>
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#050505;color:#fff}
-header{background:#000;padding:20px;border-bottom:2px solid #d4af37;position:sticky;top:0}
-nav{display:flex;justify-content:space-between;align-items:center}
-.logo{color:#d4af37;font-size:28px;font-weight:bold}
-nav ul{display:flex;gap:20px;list-style:none}
-nav a{color:#d4af37;text-decoration:none}
-.hero{height:80vh;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop') center/cover;display:flex;flex-direction:column;justify-content:center;padding:60px}
-.hero h1{font-size:64px;color:#d4af37}
-.hero p{font-size:24px;margin:15px 0}
-.btn{display:inline-block;background:#d4af37;color:#000;padding:12px 24px;text-decoration:none;font-weight:bold;border-radius:4px}
-section{padding:60px 8%}
-h2{color:#d4af37;margin-bottom:25px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{border:1px solid #d4af37;padding:20px;border-radius:8px;background:#111}
-footer{text-align:center;padding:30px;border-top:1px solid #d4af37;color:#d4af37}
+body{
+    margin:0;
+    background:#000;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+.logo{
+    color:#FFD700;
+    font-size:40px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.poster{
+    width:95%;
+    max-width:1000px;
+    border-radius:15px;
+    margin:20px auto;
+    display:block;
+    box-shadow:0 0 25px rgba(255,215,0,.5);
+}
+
+.buttons{
+    margin:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#FFD700;
+    color:black;
+    text-decoration:none;
+    padding:15px 25px;
+    margin:10px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+footer{
+    margin:30px;
+    color:#aaa;
+}
 </style>
 </head>
+
 <body>
-<header>
-<nav>
+
+<div class="logo">
+👑 STREET_LEGENDS_GR
+</div>
+
+<img src="poster.png" class="poster">
+
+<div class="buttons">
+
+<a class="btn" href="poster.png" target="_blank">
+📸 Άνοιγμα Αφίσας
+</a>
+
+<a class="btn"
+href="https://maps.google.com/?q=CocoPan+on+the+beach+Ωρωπός"
+target="_blank">
+📍 CocoPan Ωρωπός
+</a>
+
+</div>
+
+<footer>
+Street Legends GR © 2026
+</footer>
+
+</body>
+</html>
 <div class="logo">STREET LEGENDS GR</div>
 <ul>
 <li><a href="#events">Events</a></li>
